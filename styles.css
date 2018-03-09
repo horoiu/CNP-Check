@@ -1,0 +1,53 @@
+body {
+	background-color: #d4e1f7;
+	text-align: center;
+}
+
+#TitleText {
+	color: brown;
+	text-align: center;
+	font-family: cursive;
+	font-size: 44px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.textbox {
+	align-content: left;
+	font-size: 22px;
+	font-weight: 700;
+	font-style: italic;
+	height: 30px;
+}
+
+#cnpbox, #bybox, #bmbox, #bdbox {
+	width: 80px;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	color: red;
+}
+
+#cnpbox {
+	width: 180px;
+}
+
+#verify {
+	background-color: green;
+	color: yellow;
+	font-size: 20px;
+	letter-spacing: 1.3px;
+	border: 2px solid grey;
+	border-radius: 7px;
+	padding: 4px;
+}
+
+a:link {
+	text-align: center;
+	font-size: 22px;
+	font-family: cursive;
+	font-style: italic;
+	color: magenta;
+}

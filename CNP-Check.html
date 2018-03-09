@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>CNP Check</title>
+		<link href="styles.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="TitleText">
+		  	<p>Verify your CNP</p>
+		</div>
+		<br/>
+		<div id="centralcontainer">
+			<form>
+		  <p class="textbox">Please enter your CNP: 
+		  	<input type="textbox" id="cnpbox" maxlength="13"/>
+			</p>
+			<p class="textbox">Please enter your Birth Year: 
+				<input type="textbox" id="bybox" maxlength="4"/>
+			</p>
+			<p class="textbox">Please enter your Birth Month: 
+				<input type="textbox" id="bmbox" maxlength="2"/>
+			</p>
+			<p class="textbox">Please enter your Birth Day: 
+				<input type="textbox" id="bdbox" maxlength="2"/>
+			</p>
+			<br/>
+			<input type="button" name="verify" value=" Verify CNP " id="verify" onclick="cnp();"/>
+		  </form>
+		  <br/><br/><br/>
+		  <div id="link">
+		  	<a href="https://ro.wikipedia.org/wiki/Cod_numeric_personal" target="blank" title="Visit Wikipedia to find out more about CNP.">CNP on Wikipedia</a>
+		</div>
+	</body>
+	<script src="script.js" type="text/javascript"></script>
+</html>
